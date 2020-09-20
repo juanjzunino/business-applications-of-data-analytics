@@ -19,11 +19,9 @@ library(ggplot2)
 data <- read.csv('loan_ds.csv')
 
 
-
 # 4) Descriptive analytics
-
 prop.table(table(data$Loan_Status[data$Gender == 'Male']))
 prop.table(table(data$Loan_Status[data$Gender == 'Female']))
 
 
-# Matching
+# 5) Matching
