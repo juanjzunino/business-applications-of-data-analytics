@@ -28,7 +28,7 @@ round(prop.table(table(data$Loan_Status[data$Education == 'Not Graduate'])), 2)
 
 table(complete.cases(data))
 
-
+unique(data$Married)
 # Propensity score
 propensity.score <- glm(Education ~ .,
                         family = binomial,
