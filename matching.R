@@ -187,6 +187,14 @@ cbind(varnames,pval.t.test);
 
 
 
+treated.y=data$Loan_Status[treated.subject.index];
+control.y=data$Loan_Status[matched.control.subject.index];
+wilcox.test(treated.y,control.y,paired=TRUE,conf.int=TRUE)
+
+t.test(treated.y, control.y)
+
+
+
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 #                                 MATCHING w/ CALIPER                                    #
