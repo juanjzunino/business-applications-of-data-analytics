@@ -16,7 +16,7 @@
 
 # Setup environment
 rm(list=ls())
-setwd('/Users/juanjozunino/Documents/GitHub/business-applications-of-data-analytics/')
+setwd('/Users/juanjozunino/Documents/GitHub/bada/')
 
 # Import libraries
 library(dplyr)
@@ -70,6 +70,8 @@ treated.y=data$Loan_Status[data$Education == 'Graduate'];
 control.y=data$Loan_Status[data$Education == 'Not Graduate'];
 
 t.test(treated.y, control.y)
+
+summary(lm(Loan_Status ~ ., data=data))
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 #                                    PROPENSITY SCORE                                    #
