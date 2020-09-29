@@ -5,3 +5,7 @@
 ## Propensity score matching
 
 El objetivo de este informe es analizar la ventaja de utilizar técnicas estadísticas como _propensity score matching_ a la hora de realizar inferencia estadística.
+
+## Data
+
+La base de datos se encuentra publicada en [Kaggle](https://www.kaggle.com/ninzaami/loan-predication)
