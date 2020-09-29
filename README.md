@@ -1,6 +1,6 @@
 ---
 title: Business Application of Data Analytics
-Author:
+author:
   - Profesor: Santiago Gallino
   - Alumno: Juan José Zunino
 
