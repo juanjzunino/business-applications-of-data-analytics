@@ -69,8 +69,9 @@ round(prop.table(table(data$Loan_Status[data$Education == 'Graduate'])), 2)
 round(prop.table(table(data$Loan_Status[data$Education == 'Not Graduate'])), 2)
 
 # t-test
-treated.y=data$Loan_Status[data$Education == 'Graduate'];
-control.y=data$Loan_Status[data$Education == 'Not Graduate'];
+treated.y=data$Loan_Status[data$Education == 'Not Graduate'];
+control.y=data$Loan_Status[data$Education == 'Graduate'];
+
 
 t.test(treated.y, control.y)
 
@@ -341,3 +342,4 @@ control.y=data$Loan_Status[matched.control.subject.index];
 t.test(treated.y, control.y)
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ END ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
