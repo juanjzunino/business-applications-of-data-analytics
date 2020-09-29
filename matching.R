@@ -10,6 +10,9 @@
 #                                     CONFIGURATION                                      #
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 
+# Aclaración: Este código fue corrido bajo la versión 3.6.3, no se asegura la replicabilidad
+# del mismo en otra versiones
+
 #############################
 #        Environment        #
 #############################
